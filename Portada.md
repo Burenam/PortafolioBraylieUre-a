@@ -1,10 +1,14 @@
 <h1 align="center">👩‍💻 Braylie Nicole Ureña Miranda 👩‍💻</h1>
 <p align="center">
-  <img src="https://media.licdn.com/dms/image/D4E16AQFFkk3c8czEHA/profile-displaybackgroundimage-shrink_350_1400/0/1708668115300?e=1714003200&v=beta&t=eb56ssA_WqH4JyM7e2vwIh19OqnI8Aj4jIhn3e2SY9E" height="230"/>
+  <img src="https://media.licdn.com/dms/image/D4E16AQG0cqvWBlP6UA/profile-displaybackgroundimage-shrink_350_1400/0/1708746696138?e=1714003200&v=beta&t=7wOCnwseesYuBp0HXC5orHdk-InDtbOdTjnY_eR9gf8" height="230"/>
 </p>
 <hr>
 
 <h2 align="center">Sobre mí:</h2>
+
+<p align="center">
+  Ingeniera de Software con experiencia en el desarrollo de proyectos universitarios tanto en el frontend como en el backend. Mi enfoque se centra en la creación de soluciones innovadoras a través de la aplicación de mis conocimientos en Ingeniería de Software. Habilidad probada para trabajar en equipos multidisciplinarios y adaptarme rápidamente a nuevos desafíos tecnológicos.
+</p>
 
 <h3 align="center">🌟 Mis cualidades como persona y como trabajador:</h3>
 
