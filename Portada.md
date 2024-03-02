@@ -7,7 +7,7 @@
 <h2 align="center">Sobre mí:</h2>
 
 <p align="center">
-  Ingeniera de Software con experiencia en el desarrollo de proyectos universitarios tanto en el frontend como en el backend. Mi enfoque se centra en la creación de soluciones innovadoras a través de la aplicación de mis conocimientos en Ingeniería de Software. Habilidad probada para trabajar en equipos multidisciplinarios y adaptarme rápidamente a nuevos desafíos tecnológicos.
+  Ingeniera de Software apasionada y comprometida, con experiencia en el desarrollo de proyectos frontend y backend, y con una gran capacidad de adaptación a nuevos desafíos tecnológicos.
 </p>
 
 <h3 align="center">🌟 Mis cualidades como persona y como trabajador:</h3>
