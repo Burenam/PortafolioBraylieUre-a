@@ -1,0 +1,9 @@
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\bin\Debug\Laboratorio1_Calculadora.dll
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\bin\Debug\Laboratorio1_Calculadora.pdb
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.csproj.AssemblyReference.cache
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.Properties.Resources.resources
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.UserControl1.resources
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.csproj.GenerateResource.cache
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.csproj.CoreCompileInputs.cache
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.dll
+C:\Users\buren_tun4pw6\Desktop\Componentes\Laboratorio1\Laboratorio1_Calculadora\Laboratorio1_Calculadora\obj\Debug\Laboratorio1_Calculadora.pdb
