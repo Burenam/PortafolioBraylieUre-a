@@ -1,0 +1,11 @@
+﻿  Asiento.cpp
+  Cola.cpp
+  Gestor.cpp
+  Lista.cpp
+  Main.cpp
+D:\TODO\Programacion\Universidad\CENFOTEC\ProyectoIndividual_NicoleUrena\ProyectoIndividual\ProyectoIndividual\EstructuraDatosPI\Main.cpp(27,9): warning C4101: 'val': variable local sin referencia
+  Nodo.cpp
+  Pila.cpp
+  Generando código...
+D:\TODO\Programacion\Universidad\CENFOTEC\ProyectoIndividual_NicoleUrena\ProyectoIndividual\ProyectoIndividual\EstructuraDatosPI\Lista.cpp(44): warning C4715: 'Lista::agregarPreferencial': no todas las rutas de acceso de control devuelven un valor
+  EstructuraDatosPI.vcxproj -> D:\TODO\Programacion\Universidad\CENFOTEC\ProyectoIndividual_NicoleUrena\ProyectoIndividual\ProyectoIndividual\Debug\EstructuraDatosPI.exe
