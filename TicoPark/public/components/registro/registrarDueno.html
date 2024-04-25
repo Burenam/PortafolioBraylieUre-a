@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar cuenta Dueño</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" href="../../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="registrar_tipos.html">Volver Atrás</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Registrar <span>dueño</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <div id="formDueno">
+                  <fieldset class="formSet1">
+                     <div class="campo">
+                        <input type="text" placeholder="Cédula de identidad" id="cedula"/>
+                     </div>
+
+                     <div class="campo">
+                        <input type="email" placeholder="Correo electrónico" id="correo"/>
+                     </div>
+
+                     <div class="campo">
+                        <input type="date" placeholder="Fecha de nacimiento" id="fechaNacimiento"/>
+                     </div>
+
+                     <div class="campo">
+                        <input type="text" placeholder="Código de permiso de funcionamiento municipal de su parqueo" id="permiso"/>
+                     </div>
+
+                     <div class="campo-permiso">
+                        <div class="detalle">
+                           <p>Suba un archivo tipo imagen de su permiso:</p>
+                        </div>
+                        <div class="permiso">
+                           <label class="cargar-archivo">
+                              <input onchange="subirImagen()" type="file" id="imagenPermiso"/><i class="fas fa-2x fa-camera"></i>
+                          </label>
+                        </div>
+                     </div>
+
+                     <div class="campo">
+                        <i class="far fa-image muestraIcono" id="muestraIcono"></i> 
+                        <img class="" id="imagenAgregada"> 
+                     </div>
+
+                     <div class="campo7">
+                        <p>¿Se encuentra su parqueo en un centro comercial?  </p>
+                        <div class="sepRadios">
+                           <div class="radios">
+                              <input name="centroComercial" type="radio" id="centroSI">
+                              <label for="centroComercial">Sí</label>
+                           </div>
+                           <div class="radios">
+                              <input name="centroComercial" type="radio" id="centroNO">
+                              <label for="centroComercial">No</label>
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="campo">
+                        <input type="text" placeholder="Nombre del centro comercial" id="nombreCentro"/>
+                     </div>
+
+                     <div class="campo">
+                        <button onclick="validarSolicitud()" class="campoBoton hvr-grow hvr-grow-shadow">
+                           <a class="redireccion">Registrar</a>
+                        </button>
+                     </div>
+                  </fieldset>
+               </div>
+               <!-- final formulario -->
+            </div>
+            
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      <!-- custom js -->
+      <script src="solicitudesParqueo.js"></script>
+    
+   </body>
+</html>

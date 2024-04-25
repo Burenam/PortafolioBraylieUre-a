@@ -1,0 +1,299 @@
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    position: relative;
+    margin-bottom: 25px;
+    line-height: 50px;
+    position: relative;
+    color: #fff;
+}
+
+
+/*------------------------------------------------------------------
+        4. Body
+-------------------------------------------------------------------*/
+
+
+.contenedorContenido {
+    width: 100%;
+    padding:0% 6% 6% 6%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorHeader {
+    width: 100%;
+    padding:0% 6% 0% 6%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    padding: 16px 8px;
+    text-align: center;
+}
+
+.label {
+    padding: 0 6px;
+    font-size: 18px;
+}
+
+.dropdownWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    padding: 0% 0 4.5% 0;
+}
+
+.dropdown {
+    padding: 0 3% 0 0%;
+}
+
+
+/*----------------------------------------------------
+        4.a. Forms Registrar
+------------------------------------------------------*/
+
+
+.capaForm2 {
+    float: left;
+    width: 50%;
+    padding: 40px 70px;
+    background-size: cover;    
+}
+
+.capaForm2 h2 {
+    color: #1e72bc;
+}
+
+/*----------------------------------------------------
+        4.a. Forms Listar
+------------------------------------------------------*/
+
+
+
+.h2EstiloB h2::after {
+    width: 110px;
+    height: 5px;
+    background: #1e72bc;
+    content: "";
+    display: block;
+}
+
+
+/*----------------------------------------------------
+        4.a.i Tabla
+------------------------------------------------------*/
+
+
+table {    
+    overflow: hidden;
+    border-radius: 2px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+
+
+.contenedorTabla {
+    width: 100%;
+    padding: 2.5% 8%;
+}
+  
+.tablaListar {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.tablaListar th {
+    padding: 12px 10px;
+    font-size: 14px;
+    background-color: #1e72bc;
+    color: #fff;
+    width: 14%;
+    border: 1px solid white;
+}
+.tablaListar tr {
+    border: 1px solid black; 
+    height: 50px;
+}
+
+.tablaListar th:nth-last-child(1) {
+    width: 15%;
+    padding-right: 10px;    
+}
+  
+.tablaListar td {
+    text-align: center;   
+    padding: 3px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+.tablaListar td:nth-last-child(1) {
+    border: 1px solid black;
+}
+
+.iconosTabla {
+    cursor: pointer;
+}
+.iconosTabla:hover {
+    color: #1e72bc;
+}
+
+/*----------------------------------------------------
+        7.a. Inferior
+------------------------------------------------------*/
+
+.footer_fondo_forms {
+    padding: 15px;
+    padding: 15px 15px 10px 15px;
+}
+
+.footer_fondo {
+    min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #1e72bc;
+    
+}
+
+
+.footer_fondo p {
+    margin: 0;
+    line-height: 50px;
+    color: #fff;
+    text-align: center !important;
+ 
+}
+
+.footer_fondo p strong {
+    color: #fff;
+    font-weight: 500;
+}
+
+.botonWrap {
+    overflow: auto;
+    padding: 0 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.botonMain {
+       
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    text-align: center;
+    height: 50%;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    padding: 0 35px 0;
+    background: #4A82e2;
+    transition: ease all 0.5s;
+
+}
+
+.campoBoton {
+    background: #4bd1dd;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    float: left;
+    text-align: center;
+    height: 48px;
+    border-radius: 1px;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    min-width: 148px;
+}
+
+.botonMain:hover,.botonMain:focus {
+    background: #f15c5c;
+    color: #fff
+}
+
+.botonPago {
+    float:left;
+    width:33%;
+    padding: 5% 0;
+    display:flex;
+    justify-content: center;
+}
+
+#map {
+    width:500px;
+    height:400px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.marker {
+    border: none;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+    background-image: url(../../imgs/icon.png);
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+.starWrap {
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    visibility: collapse;
+}

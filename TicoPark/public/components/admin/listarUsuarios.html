@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Listado de usuarios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" href="../../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_admin.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd">
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Listado <span>de usuarios</span></h2>
+               </div>
+               
+               <div class="contenedorAdministrar">
+                  <form class="busqueda" action="">
+                     <input type="text" placeholder="Escribe la cedúla de identidad" name="busquedaUsuarios">
+                     <button class="hvr-backward" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <div class="botonListar hvr-shrink"><button class="iconListar" type="submit" onclick="listarUsuarios()"><i class="far fa-list-alt"></i></button></div>
+               </div>
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Cedúla de identidad</th>
+                           <th id="">Nombre</th>
+                           <th id="">Correo electrónico</th>     
+                           <th id="">Nivel</th>   
+                           <th id="">Eliminar</th>      
+                        </tr>
+
+                     </thead>
+                     <tbody id="contenido_tabla">
+                          
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="../../global.js"></script>
+      <script src="listarUsuarios.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+   </body>
+</html>

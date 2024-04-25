@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+    <!-- teclado -->
+    <meta charset="utf-8">
+    <!-- sitio -->
+    <title>TicoPARK - Registrar/Listar Convenios</title>
+    <meta name="author" content="BAMAS Software">
+    <!-- css/íconos del sitio -->
+    <link rel="stylesheet" href="../../estilo.css">
+    <link rel="stylesheet" href="reservar.css">
+    <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="default_theme" class="team">
+    <!-- header -->
+    <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img src="../../imgs/logo.png" alt="TicoPARK"
+                            title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">
+                    <ul class="listaMenu">
+                        <li><a href="equipo.html">Equipo</a></li>
+                        <li><a href="vision.html">Visión</a></li>
+                        <li><a href="mision.html">Misión</a></li>
+                        <li><a href="about.html">Sobre Nosotros</a></li>
+                        <li><a href="perfil_dueno.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../imgs/configuration.png" alt="TicoPARK" /></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- final header -->
+    <!-- servicio -->
+    <section class="contenido">
+        <div class="contenedorHeader">
+
+            <!-- inicio búsqueda -->
+            <div class="capaForm2 bordeTitulo">
+                <div class="h2EstiloB">
+                    <h2>Reservar un espacio</h2>
+                </div>
+
+                <!-- inicio tabla -->
+                <br>
+
+
+
+            </div>
+            <!-- final búsqueda -->
+        </div>
+    </section>
+    <!-- final servicio -->
+    <div class="dropdownWrap">
+        <div class="dropdown">
+            <label class="label" for="hour">Hora:</label>
+            <select class="select" name="hour" id="hour">
+                <option value="5">5:00 am</option>
+                <option value="6">6:00 am</option>
+                <option value="7">7:00 am</option>
+                <option value="8">8:00 am</option>
+                <option value="9">9:00 am</option>
+                <option value="10">10:00 am</option>
+                <option value="11">11:00 am</option>
+                <option value="12">12:00 pm</option>
+                <option value="13">1:00 pm</option>
+                <option value="14">2:00 pm</option>
+                <option value="15">3:00 pm</option>
+                <option value="16">4:00 pm</option>
+                <option value="17">5:00 pm</option>
+                <option value="18">6:00 pm</option>
+            </select>
+        </div>
+
+        <div class="dropdown">
+            <label class="label" for="vehiculo">Tipo de Vehículo:</label>
+            <select class="select" name="vehiculo" id="vehiculo">
+                <option value="carro">Carro</option>
+                <option value="moto">Motocicleta</option>
+            </select>
+        </div>
+
+        <button type="button" class="campoBoton" onclick="showGrid()" id="provBot">Submit</button>
+    </div>
+
+    <div class="contenedorContenido hidden" id="contReserva">
+        <div class="mapWrap" id="mapWrap">
+
+            <div id='map' class='map pad2'>Map</div>
+        </div>
+
+        <div class="contenedorTabla">
+            <table id="tabla_usuarios" class="tablaListar">
+                <thead class="alt_letra">
+                    <tr>
+                        <th id="">Parqueo</th>
+                        <th id="">Hora de Ingreso</th>
+                        <th id="">Tipo de Vehículo</th>
+                        <th id="">Tarifa</th>
+                    </tr>
+
+
+
+                </thead>
+                <tbody id="info_estadia">
+                    <tr id="">
+                        <td id="">Parqueo Rocky</td>
+                        <td id="">06:00 pm</td>
+                        <td id="">Carro</td>
+                        <td id="">₡2250</i></td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+            <div class="botonWrap">
+
+                <div class="botonPago">
+                    <button type="button" id="payNow" class="campoBoton" onclick="checkOut()">Confirmar</button>
+                </div>
+                <div class="botonPago">
+                    <button type="button" class="campoBoton"
+                        onclick="window.location.href = '../reservaciones/reservaciones.html'">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- footer fondo -->
+    <footer class="footer">
+        <div class="footer_fondo_forms">
+            <div class="footer_fondo">
+                <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+                <div>
+                </div>
+    </footer>
+    <!-- final footer -->
+    <!--=========== Sección de js ===========-->
+
+
+    <!-- SweetAlert-->
+
+    <!-- custom js -->
+    <script src="global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="reservar.js"></script>
+</body>
+
+</html>

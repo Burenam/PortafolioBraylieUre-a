@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar empresa</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" href="../../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="registrar_tipos.html">Volver Atrás</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Registrar <span>empresa</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form id="formConvenios">
+                  <fieldset class="formSet1">
+
+                     <div class="campo">
+                        <input type="text" placeholder="Nombre de la empresa" id="nombre" required="" />
+                     </div>
+
+                     <div class="campo-tipo-cedula">
+                        <p>Seleccione el tipo cédula:  </p>
+                        <div class="sepRadios">
+                           <div class="radios">
+                              <input type="radio" id="cedulaFisica" name="cedulaFisica">
+                              <label for="cedulaFisica">Cédula física</label>
+                           </div>
+                           <div class="radios">
+                              <input type="radio" id="cedulaJuridica" name="cedulaJuridica">
+                              <label for="cedulaJuridica">Cédula jurídica</label>
+                           </div>
+                        </div>
+                        <div class="campo">
+                           <input type="number" name="numeroCedula" placeholder="Cédula de identidad" id="numeroCedula" required="" />
+                        </div>
+                     </div>
+
+                     <div class="campo">
+                        <input type="email" name="correo" placeholder="Correo electrónico" id="correo" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <input type="password" name="contrasena" placeholder="Contraseña" id="contrasena" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <button type="button" class="campoBoton hvr-grow hvr-grow-shadow" onclick="validarEmpresa()">Guardar</button>
+                     </div>
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+            
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+      <!-- custom js -->
+      <script src="global.js"></script>
+      <script src="registrarEmpresa.js"></script>
+    
+   </body>
+</html>

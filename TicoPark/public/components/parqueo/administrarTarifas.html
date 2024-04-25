@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar/Listar Tarifas</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="../perfiles/perfilDueno.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="../perfiles/perfilDueno.html">Inicio</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <button type="button" class="botonMain" onclick="cerrarSesion()">Cerrar Sesión</button>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Registrar <span>tarifas</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <div id="formTarifas">
+                  <fieldset class="formSet1">
+                     <div class="campo">
+                        <input type="number" name="nombre" placeholder="Monto de la tarifa" id="monto"/>
+                     </div>
+                     <div class="campo">
+                        <br>
+                        <label for="tipoMoneda">Elija el tipo de moneda de la tarifa: </label>
+                        
+                           <select id="tipoMoneda" name="tipoMoneda" form="tipoMoneda">
+                              <option id="colones" value="colones">Colones</option>
+                              <option id="dolares" value="dólares">Dólares</option>
+                              <option id="euros" value="euros">Euros</option>
+                           </select>
+                           <br>
+                           <br>
+                           <br>
+                     </div>
+                     
+                     <div class="campo">
+                        <p>Seleccione el tipo de vehículo al cual aplicar la tarifa:  </p>
+                        <br>
+                        <div class="sepRadios">
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="automovil" value="automovil">
+                              <label for="automovil">Automóvil</label>
+                           </div>
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="motocicleta" value="motocicleta">
+                              <label for="motocicleta">Motocicleta</label>
+                           </div>
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="bicicleta"  value="bicicleta">
+                              <label for="bicicleta">Bicicleta</label>
+                           </div> 
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="autobus" value="autobus">
+                              <label for="autobus">Autobús</label>
+                           </div>
+                        </div>
+                        <div class="sepRadios">
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="camion" value="camion">
+                              <label for="camion">Camión</label>
+                           </div>
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="cuadraciclo" value="cuadraciclo">
+                              <label for="cuadraciclo">Cuadraciclo</label>
+                           </div>
+                           <div class="radios">
+                              <input name="vehiculo" type="radio" id="otros" value="otros">
+                              <label for="otros">Otros</label>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <div class="campo">
+                        <button onclick="validarTarifa()" class="campoBoton hvr-grow hvr-grow-shadow">Guardar</button>
+                     </div>
+                  </fieldset>
+               </div>
+               <!-- final formulario -->
+            </div>
+            <!-- inicio búsqueda -->
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Administrar <span>tarifas</span></h2>
+               </div>
+               
+               <div class="contenedorAdministrar">
+                  <div class="busqueda">
+                     <input type="text" placeholder="Escribe un tipo de vehículo (Ej: Automóvil, Motocicleta)..." id="busqueda">
+                     <button onclick="buscarTarifas()" class="hvr-backward" type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+                  <div class="botonListar hvr-shrink"><button onclick="listarTarifas()" class="iconListar" type="submit"><i class="far fa-list-alt"></i></button></div>
+               </div>
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tablaTarifas" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Tipo de vehículo</th>
+                           <th id="">Monto de la tarifa</th>
+                           <th id="">Tipo de moneda</th>
+                           <th id="">Modificar</th>
+                           <th id="">Eliminar</th>
+                        </tr>
+                    
+                     </thead>
+                     <tbody id="contenido_tabla">
+                            
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+      <!--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>-->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+      
+
+      <!-- custom js -->
+      <script src="tarifas.js"></script>
+      <script src="/global.js"></script>
+    
+   </body>
+</html>

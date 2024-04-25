@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- teclado -->
+   <meta charset="utf-8">
+   <!-- sitio -->
+   <title>TicoPARK - Registrar/Listar Convenios</title>
+   <meta name="author" content="BAMAS Software">
+   <!-- css/íconos del sitio -->
+   <link rel="stylesheet" href="../assets/estilo.css" />
+   <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="default_theme" class="team">
+   <!-- header -->
+   <header class="header">
+      <div class="contenedor">
+         <div class="header1">
+            <div class="logo"><a href="index.html"><img src="../imgs/logo.png" alt="TicoPARK"
+                     title="Configurar Perfil" /></a></div>
+            <div class="menuPrincipal">
+               <ul class="listaMenu">
+                  <li><a href="equipo.html">Equipo</a></li>
+                  <li><a href="vision.html">Visión</a></li>
+                  <li><a href="mision.html">Misión</a></li>
+                  <li><a href="about.html">Sobre Nosotros</a></li>
+                  <li><a href="perfil_dueno.html">Home</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="header2">
+            <div class="contHeader2">
+               <div><a class="loginIMG" href=""><img src="../imgs/configuration.png" alt="TicoPARK" /></a></div>
+               <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- final header -->
+   <!-- servicio -->
+   <section class="contenido">
+      <div class="contenedorContenidoInd">
+         <div class="capaForm2 bordeTitulo">
+            <div class="h2EstiloB">
+               <h2>Listar <span>clientes</span></h2>
+            </div>
+
+            <div class="contenedorAdministrar">
+               <form class="reportes" action="" id="formReporteDueno">
+                  <div class="campo">
+
+
+                  </div>
+                  <div class="campo">
+
+                  </div>
+               </form>
+               <form class="busqueda" action="">
+                  <input type="text" placeholder="Escribe la cédula.." name="busquedaConvenio">
+                  <button class="hvr-backward" type="submit"><i class="fa fa-search"></i></button>
+               </form>
+               <div class="botonListar hvr-shrink"><button class="iconListar" type="submit"><i
+                        class="far fa-list-alt"></i></button></div>
+            </div>
+            <!-- inicio tabla -->
+            <br>
+
+            <div class="contenedorTabla">
+               <table id="tabla_usuarios" class="tablaListar">
+                  <thead class="alt_letra">
+                     <tr>
+                        <th id="">Cliente</th>
+                        <th id="">Cédula de identidad</th>
+                        <th id="">Tipo de vehículo</th>
+                        <th id="">Espacio ocupado</th>
+                        <th id="">Fecha y hora de entrada</th>
+                        <th id="">Eliminar cliente</th>
+                     </tr>
+
+                  </thead>
+                  <tbody id="contenido_tabla">
+                     <tr>
+                        <td id="">JuliaB</td>
+                        <td id="">117460475</td>
+                        <td id="">Automóviles, motocicletas</td>
+                        <td id="">A1</td>
+                        <td id="">13/04/2020 13:20</td>
+                        <td id=""><i onclick="borrar()" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                     </tr>
+                     <tr>
+                        <td id="">ManuelH</td>
+                        <td id="">116744391</td>
+                        <td id="">Automóviles, motocicletas</td>
+                        <td id="">F4</td>
+                        <td id="">04/07/2020 20:00</td>
+                        <td id=""><i onclick="borrar()" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                     </tr>
+                     <tr>
+                        <td id="">RosaQ</td>
+                        <td id="">116460420</td>
+                        <td id="">Automóviles, motocicletas</td>
+                        <td id="">H5</td>
+                        <td id="">15/06/2020 14:05</td>
+                        <td id=""><i onclick="borrar()" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                     </tr>
+                     <tr>
+                        <td id="">MarioM</td>
+                        <td id="">116460011</td>
+                        <td id="">Automóviles, motocicletas</td>
+                        <td id="">C3</td>
+                        <td id="">14/02/2020 18:50</td>
+                        <td id=""><i onclick="borrar()" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                     </tr>
+                     <tr>
+                        <td id="">JuanJ</td>
+                        <td id="">117469987</td>
+                        <td id="">Automóviles, motocicletas</td>
+                        <td id="">E6</td>
+                        <td id="">25/08/2020 22:20</td>
+                        <td id=""><i onclick="borrar()" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                     </tr>
+                  </tbody>
+
+               </table>
+            </div>
+
+         </div>
+         <!-- final búsqueda -->
+      </div>
+   </section>
+   <!-- final servicio -->
+   <!-- footer fondo -->
+   <footer class="footer">
+      <div class="footer_fondo_forms">
+         <div class="footer_fondo">
+            <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+            </div>
+   </footer>
+   <!-- final footer -->
+   <!--=========== Sección de js ===========-->
+
+
+   <!-- SweetAlert-->
+
+   <!-- custom js -->
+   <script src="listar_cliente.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+</body>
+
+</html>

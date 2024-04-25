@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar/Listar Convenios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" href="style.css">
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+     
+                     
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+            <!-- inicio búsqueda -->
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Tarjetas </h2>
+               </div>
+               
+               
+                
+           
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Tarjeta</th>
+                           <th id="">Dueño</th>
+                           <th id="">Número de tarjeta</th>
+                           <th id="">Fecha de vencimiento </th>
+                            <th id="">Modificar datos</th>
+                           <th id="">Eliminar tarjeta</th>
+                           <th id="">Favorito</th>
+                        </tr>
+                    
+                     </thead>
+                     <tbody id="contenido_tabla">
+                        <tr>
+                           <td id="">Visa</td>
+                           <td id="">Mohamed Carmona</td>
+                           <td id="">***********1804</td>
+                           <td id="">17-08-2021</td>
+                           <td id=""><a href="tarjeta.html"><i  class="fas fa-edit fa-lg iconosTabla"></i></a></td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                           <td><i onclick="favoritos()" class="far fa-star iconosTabla"></i></td>
+                        </tr>
+                        <tr>
+                           <td id="">MasterCard</td>
+                           <td id="">Maria Angustias Wu</td>
+                           <td id="">***********9000</td>
+                           <td id="">20-11-2020</td>
+                           <td id=""><a href="tarjeta.html"><i onclick="t)" class="fas fa-edit fa-lg iconosTabla"></i></a></td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                           <td><i onclick="favoritos()" class="far fa-star iconosTabla"></i></td>
+
+                        </tr>   
+                        <tr>
+                           <td id="">American Express</td>
+                           <td id="">Uxue Feijoo</td>
+                           <td id="">***********9501</td>
+                           <td id="">02-07-2020</td>
+                           <td id=""><a href="tarjeta.html"><i onclick="t)" class="fas fa-edit fa-lg iconosTabla"></i></a></td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                           <td><i onclick="favoritos()" class="far fa-star iconosTabla"></i></td>
+                        </tr>      
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="../../listar.js"></script>
+    
+   </body>
+</html>

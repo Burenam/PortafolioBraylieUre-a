@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Buscar usuarios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../assets/estilo.css" />
+      <link rel="stylesheet" href="../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd">
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Listado <span>de usuarios</span></h2>
+               </div>
+               
+               <div class="contenedorAdministrar">
+                  <form class="busqueda" action="">
+                     <input type="text" placeholder="Escriba la cedúla de identidad">
+                     <button class="hvr-backward" type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <div class="botonListar hvr-shrink"><button class="iconListar" type="submit"><i class="far fa-list-alt"></i></button></div>
+               </div>
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Cedúla de identidad</th>
+                           <th id="">Nombre</th>
+                           <th id="">Apellido</th>
+                           <th id="">Correo electrónico</th>
+                           <th id="">Eliminar</th>       
+                        </tr>
+
+                     </thead>
+                     <tbody id="contenido_tabla">
+                        <tr>
+                           <td id="">117210243</td>
+                           <td id="">Nicole</td>
+                           <td id="">Ureña</td>
+                           <td id="">burnea@gmail.com</td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-times fa-lg iconosTabla"></i></td>
+                        </tr>
+                        <tr>                
+                           <td id="">117747558</td>
+                           <td id="">Kevin</td>
+                           <td id="">Murillo</td>
+                           <td id="">Kevmu1@gmail.com</td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-times fa-lg iconosTabla"></i></td>
+                        </tr>  
+                        <tr>                
+                           <td id="">175557454</td>
+                           <td id="">Ismael</td>
+                           <td id="">Miranda</td>
+                           <td id="">imiranda@gamil.com</td>
+                           <td id=""><i onclick="Borrar(id)" class="fas fa-times fa-lg iconosTabla"></i></td>
+                        </tr>     
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="global.js"></script>
+      <script src="../listar.js"></script>
+   </body>
+</html>

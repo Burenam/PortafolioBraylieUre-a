@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Información dueño</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../assets/estilo.css" />
+      <link rel="stylesheet" href="../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="registrar_tipos.html">Volver Atrás</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Registrar <span>información</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form action="perfil.html" id="formConvenios">
+                  <fieldset class="formSet1">
+                     <div class="campo">
+                        <input type="text" name="nombre" placeholder="Nombre de fantasía" id="nombre" required />
+                     </div>
+
+                     <div class="campo">
+                        <input type="text" placeholder="Dirección exacta" id="direccion" required />
+                     </div>
+
+                     <div class="campo5">
+                        <div class="campo5">
+                           <div class="campo2-campo1">
+                              <label for="provincia">Provincia: </label>
+                              <select id="provincia" required>
+                                 <option value="san-jose">San José</option>
+                                 <option value="alajuela">Alajuela</option>
+                                 <option value="heredia">Heredia</option>
+                                 <option value="cartago">Cartago</option>
+                                 <option value="cartago">Limon</option>
+                                 <option value="alajuela">Guanacaste</option>
+                                 <option value="heredia">Puntarenas</option>
+                              </select> 
+                           </div>
+                           <div class="campo2-campo2"> 
+                              <label for="canton">Cantón: </label>
+                              <select id="canton" required>
+                                 <option value="san-jose">San José</option>
+                                 <option value="escazu">Escazú</option>
+                                 <option value="desamparados">Desamparados</option>
+                                 <option value="puriscal">Puriscal</option>
+                                 <option value="tarrazu">Tarrazú</option>
+                                 <option value="aserri">Aserrí</option>
+                                 <option value="mora">Mora</option>
+                                 <option value="goicoechea">Goicoechea</option>
+                                 <option value="santa-ana">Santa Ana</option>
+                                 <option value="alajuelita">Alajuelita</option>
+                                 <option value="vazquez">Vázquez de Coronado</option>
+                                 <option value="acosta">Acosta</option>
+                                 <option value="tibas">Tibás</option>
+                                 <option value="moravia">Moravia</option>
+                                 <option value="monte-oca">Montes de Oca</option>
+                                 <option value="turrubares">Turrubares</option>
+                                 <option value="dota">Dota</option>
+                                 <option value="curridabat">Curridabat</option>
+                                 <option value="perez-zeledon">Pérez Zeledón</option>
+                                 <option value="leon-cortes">León Cortés Castro</option>
+                              </select>
+                           </div>
+                        </div>
+                        <div class="campo6">
+                           <br>
+                           <label for="tipoUsuario">Distrito: </label>
+                           <select id="tipoUsuario" required>
+                              <option value="carmen">Carmen</option>
+                              <option value="merced">Merced</option>
+                              <option value="Hospital">Hospital</option>
+                              <option value="Catedral">Catedral</option>
+                              <option value="Zapote">Zapote</option>
+                              <option value="san-francisco-dos-rios">San Francisco de Dos Ríos</option>
+                              <option value="uruca">La Uruca</option>
+                              <option value="mata-redonda">Mata Redonda</option>
+                              <option value="pavas">Pavas</option>
+                              <option value="hatillo">Hatillo</option>
+                              <option value="san-sebastian">San Sebastián</option>
+                           </select>
+                        </div>
+                     </div>
+
+                     <div class="campo-fecha">
+                        <div class="campo-calendarios">
+                           <div class="campo-calendario3">
+                              <p>Fecha de Nacimiento:</p>
+                              <input type="date" placeholder="Fecha de Nacimiento" id="fecha-nacimiento" required />
+                           </div>
+                           <div class="campo-calendario4">
+                              <p>Fecha de Apertura:</p>
+                              <input type="date"  placeholder="Fecha de Apertura" id="fecha-apertura" required />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="campo4">
+                        <p class="campo4-parrafo">Ingrese su horario de atención: </p>
+                        <div class="campo4">
+                           <div class="campo4-campo1">
+                              <input type="time" placeholder="Hora de Apertura" id="tiempo-apertura" required />
+                           </div>
+                           <div class="campo4-campo2">
+                              <input type="time" placeholder="Horario de Cierre" id="tiempo-cierre" required />
+                           </div>
+                        </div>
+                     </div>
+
+                     <div class="campo-permiso">
+                        <div class="detalle">
+                           <p>Ingrese un avatar para el perfil del parqueo:  </p>
+                        </div>
+                        <div class="permiso">
+                           <label class="cargar-archivo">
+                              <input type="file"/><i class="fas fa-2x fa-camera"></i>
+                          </label>
+                        </div>
+                     </div>
+
+                     <div class="campo">
+                        <input type="email" placeholder="Correo electrónico" id="correo" required />
+                     </div>
+                     
+                     <div class="campo">
+                        <input type="password" placeholder="Contraseña temporal" id="contrasena" required />
+                     </div>
+
+                     <div class="campo">
+                        <input type="password" placeholder="Contraseña nueva" id="verificar-contrasena" required />
+                     </div>
+
+                     <div class="campo">
+                        <button class="campoBoton">
+                           <a class="redireccion" href="../../landingpage.html">Guardar</a>
+                        </button>
+                     </div>
+
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+            
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="global.js"></script>
+    
+   </body>
+</html>

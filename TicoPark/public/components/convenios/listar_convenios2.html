@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Listado de Convenios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../assets/estilo.css" />
+      <link rel="stylesheet" href="../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_empresa.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd">
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Listado <span>de convenios</span></h2>
+               </div>
+               
+               <div class="contenedorAdministrar">
+                  <form class="reportes" action="" id="formConvenios">
+                    <div class="campo">
+                        <br>
+                        <label for="estadoConvenio">Elija el estado: </label>
+                           <select id="estadoConvenio" form="formConvenios">
+                              <option value="activo">Activo</option>
+                              <option value="inactivo">Inactivo</option>
+                           </select>    
+                    </div>
+                  </form>
+                  <div class="botonListar justificarBotonListar"><button class="iconListar hvr-shrink" type="submit"><i class="far fa-list-alt"></i></button></div>
+               </div>
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Convenio</th>
+                           <th id="">Parqueo</th>
+                           <th id="">Descuento</th>
+                           <th id="">Tipo vehículo</th>
+                           <th id="">Estado</th>      
+                        </tr>
+
+                     </thead>
+                     <tbody id="contenido_tabla">
+                        <tr>
+                           <td id="">A4355435</td>
+                           <td id="">Parqueo Rocky</td>
+                           <td id="">10%</td>
+                           <td id="">Automóviles, camiones, otros</td>                    
+                           <td id="">Inactivo</td>
+                        </tr>
+                        <tr>                
+                           <td id="">A7475858</td>
+                           <td id="">Parqueo Coqui</td>
+                           <td id="">15%</td>
+                           <td id="">Automóviles, cuadraciclos</td>
+                           <td id="">Activo</td>
+                        </tr>  
+                        <tr>                
+                           <td id="">A557454</td>
+                           <td id="">Parqueo Lonnis</td>
+                           <td id="">12%</td>
+                           <td id="">Automóviles</td>
+                           <td id="">Activo</td>
+                        </tr>     
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="global.js"></script>
+    
+   </body>
+</html>

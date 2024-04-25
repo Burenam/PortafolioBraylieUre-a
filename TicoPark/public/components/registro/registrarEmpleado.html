@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar usuarios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" href="../../assets/estiloRegistrar.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="../perfiles/perfilEmpresa.html">Volver Atrás</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Registrar <span>usuario</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form action="perfil.html" id="formConvenios">
+                  <fieldset class="formSet1">
+
+                     <div class="campo2">
+                        <div class="campo2-campo1">
+                           <input type="text" placeholder="Id empleado" id="idEmpleado" required="" />
+                        </div>
+                        <div class="campo2-campo2">
+                           <input type="text" placeholder="Nombre empleado" id="nombre" required="" />
+                        </div>
+                     </div>
+
+                     <div class="campo-fecha">
+                        <div class="campo-calendarios">
+                           <div class="campo-calendario3">
+                              <p>Fecha de nacimiento:</p>
+                              <input type="date" placeholder="Fecha de nacimiento" id="fechaNacimiento" required />
+                           </div>
+                           <div class="campo-calendario4">
+                              <p>Fecha de contratación:</p>
+                              <input type="date"  placeholder="Fecha de contratación" id="fechaContratacion" required />
+                           </div>
+                        </div>
+                     </div>
+                     <div class="campo">
+                        <input type="number" placeholder="Cédula de identidad" id="cedula" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <input type="text" placeholder="Puesto del empleado" id="puesto" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <input type="text" placeholder="Correo de la empresa" id="idEmpresa" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <input type="email" placeholder="Correo electrónico" id="correo" required="" />
+                     </div>
+                     
+                     <div class="campo">
+                        <input type="password" placeholder="Contraseña" id="pass" required="" />
+                     </div>
+
+                     <div class="campo">
+                        <button type="button" class="campoBoton hvr-grow hvr-grow-shadow" onclick="validarEmpleado()">Guardar</button>
+                     </div>
+
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+            
+         </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+
+      <!-- custom js -->
+      <script src="registrarEmpleado.js"></script>
+      <script src="global.js"></script>
+    
+   </body>
+</html>

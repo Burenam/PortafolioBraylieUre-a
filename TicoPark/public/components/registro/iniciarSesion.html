@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>TicoPARK - Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../../assets/estiloIniciar.css">
+	<!--===============================================================================================-->
+</head>
+
+<body>
+
+	<div class="login">
+		<div class="contenedorLogin">
+			<div class="wrapLogin">
+				<form class="capaFormulario validarForm">
+					<span class="titulo">Login de Cuenta</span>
+
+					<div class="capaInput capaInputA validarInput">
+						<input id="usuario" class="inputForm" type="text" name="usuario"
+							placeholder="Correo electrónico" required="">
+						<span class="focus-inputForm"></span>
+					</div>
+					<div class="capaInput capaInputB validarInput">
+						<input id="pass" class="inputForm" type="password" name="password" placeholder="Contraseña"
+							required="">
+						<span class="focus-inputForm"></span>
+					</div>
+
+					<div class="contenedorBoton">
+						<button type="button" class="botonSesion" onclick="cargarDatos()">Iniciar Sesión</button>
+					</div>
+
+					<div class="reset formatoContrasena">
+						<span class="texto1">¿Olvidaste</span><a href="recuperar_contraseña_home.html" class="texto2">
+							contraseña?</a>
+					</div>
+
+					<div class="reset">
+						<a href="../components/registrar_tipos.html" class="texto3">Regístrate</a>
+					</div>
+				</form>
+
+				<div class="capaImagen"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<!--===============================================================================================-->
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+	<script src="iniciarSesion.js"></script>
+
+</body>
+
+</html>

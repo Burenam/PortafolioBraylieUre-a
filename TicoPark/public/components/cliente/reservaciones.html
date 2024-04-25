@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <!-- teclado -->
+   <meta charset="utf-8">
+   <!-- sitio -->
+   <title>TicoPARK - Registrar/Listar Convenios</title>
+   <meta name="author" content="BAMAS Software">
+   <!-- css/íconos del sitio -->
+   <link rel="stylesheet" href="reservaciones.css" />
+   <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="default_theme" class="team">
+   <!-- header -->
+   <header class="header">
+      <div class="contenedor">
+         <div class="header1">
+            <div class="logo"><a href="index.html"><img src="../../imgs/logo.png" alt="TicoPARK"
+                     title="Configurar Perfil" /></a></div>
+            <div class="menuPrincipal">
+               <ul class="listaMenu">
+                  <li><a href="equipo.html">Equipo</a></li>
+                  <li><a href="vision.html">Visión</a></li>
+                  <li><a href="mision.html">Misión</a></li>
+                  <li><a href="about.html">Sobre Nosotros</a></li>
+                  <li><a href="../perfil_cliente.html">Home</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="header2">
+            <div class="contHeader2">
+               <div><a class="loginIMG" href=""><img src="../../imgs/configuration.png" alt="TicoPARK" /></a></div>
+               <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+            </div>
+         </div>
+      </div>
+   </header>
+
+   <!-- final header -->
+   <!-- servicio -->
+   <section class="contenido">
+      <div class="contenedorContenido">
+
+         <!-- inicio búsqueda -->
+         <div class="capaForm2 bordeTitulo">
+            <div class="h2EstiloB">
+               <h2>Reservación actual</h2>
+            </div>
+
+            <!-- inicio tabla -->
+            <br>
+
+            <div class="contenedorTabla">
+               <table id="tabla_usuarios" class="tablaListar">
+                  <thead class="alt_letra">
+                     <tr>
+                        <th id="">Parqueo</th>
+                        <th id="">Hora de Ingreso</th>
+                        <th id="">Tipo de Vehículo</th>
+                        <th id="">Finalizar estadía</th>
+                     </tr>
+
+
+
+                  </thead>
+                  <tbody id="info_estadia">
+                     <tr id="">
+                        <td id="">Parqueo Rocky</td>
+                        <td id="">06:00 pm</td>
+                        <td id="">Carro</td>
+                        <td id=""><i onclick="window.location.href = '../pago/pago.html'"
+                              class="fa fa-car fa-2x iconosTabla" aria-hidden="true"></i></td>
+                     </tr>
+                  </tbody>
+
+               </table>
+            </div>
+         </div>
+         <!-- final búsqueda -->
+      </div>
+      <div class="contenedorContenido">
+         <div class="capaForm2 bordeTitulo">
+            <div class="h2EstiloB">
+               <h2>Reservaciones futuras</h2>
+            </div>
+
+            <!-- inicio tabla -->
+            <br>
+            <div class="contenido">
+               <div class="contenedorTabla">
+
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Parqueo</th>
+                           <th id="">Fecha</th>
+                           <th id="">Hora</th>
+                           <th id="">Tipo de Vehículo</th>
+                           <th id="">Cancelar</th>
+                        </tr>
+
+
+
+                     </thead>
+                     <tbody id="contenido_tabla">
+                        <tr id="">
+                           <td id="">Parqueo Rocky</td>
+                           <td id="">30/07/2020</td>
+                           <td id="">06:00 pm</td>
+                           <td id="">Carro</td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>
+                        <tr>
+                           <td id="">Parqueo Coqui</td>
+                           <td id="">30/07/2020</td>
+                           <td id="">06:00 pm</td>
+                           <td id="">Motocicleta</td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>
+                     </tbody>
+
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- final servicio -->
+   <!-- footer fondo -->
+   <footer class="footer">
+      <div class="footer_fondo_forms">
+         <div class="footer_fondo">
+            <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+            </div>
+   </footer>
+   <!-- final footer -->
+   <!--=========== Sección de js ===========-->
+
+
+   <!-- SweetAlert-->
+
+   <!-- custom js -->
+   <script src="global.js"></script>
+   <script src="reservaciones.js"></script>
+</body>
+
+</html>

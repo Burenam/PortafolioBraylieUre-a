@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.11.1/mapbox-gl.css' rel='stylesheet' />
+    <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+    <!-- teclado -->
+    <meta charset="utf-8">
+    <!-- sitio -->
+    <title>TicoPARK - Registrar/Listar Tarifas</title>
+    <meta name="author" content="BAMAS Software">
+    <!-- css del sitio -->
+    <link rel="stylesheet" href="reservarParqueo.css">
+
+</head>
+
+<body id="default_theme" class="team">
+    
+     <!-- header -->
+    <header class="header">
+      <div class="contenedor">
+          <div class="header1">
+              <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+              <div class="menuPrincipal">  
+                    <ul class="listaMenu">
+                       <li><a href="equipo.html">Equipo</a></li>
+                       <li><a href="vision.html">Visión</a></li>
+                       <li><a href="mision.html">Misión</a></li>
+                       <li><a href="about.html">Sobre Nosotros</a></li>
+                       <li><a href="index.html">Home</a></li>
+                    </ul>  
+              </div>
+          </div>
+          <div class="header2">
+              <div class="contHeader2">
+                  <div><a class="loginIMG" href=""><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                  <div class="contBoton"><button type="button" class="botonMain" onclick="cerrarSesion()">Cerrar Sesión</button></div>
+              </div>    
+          </div>            
+      </div>
+  </header>
+  
+    <!-- final header -->
+
+    <div class="middle">
+        <div class="dropdownWrap">
+            <div class="dropdown">
+                <label class="label" for="vehiculo">Tipo de vehículo:</label>
+                <select class="select" name="vehiculo" id="vehiculo">
+                    <option value="carro">Automóvil</option>
+                    <option value="moto">Motocicleta</option>
+                    <option value="bici">Bicicleta</option>
+                    <option value="bus">Bus</option>
+                    <option value="camion">Camión</option>
+                    <option value="cuadra">Cuadraciclo</option>
+                </select>
+            </div>
+            <div class="dropdown">
+                <label class="label" for="provincias">Provincia:</label>
+                <select class="select" name="provincias" id="provincias" onchange="seleccionProvincia()">
+                </select>
+            </div>
+            <div class="dropdown hidden" id="cantDrop">
+                <label class="label" for="cantones">Cantón</label>
+                <select class="select" name="cantones" id="cantones">
+                </select>
+            </div>
+
+            <button type="button" class="campoBoton" onclick="cantonLoad()" id="provBot">Submit</button>
+        </div>
+
+
+
+        <div class="mapWrap hidden" id="mapWrap">
+
+            <div class='sidebar'>
+                <div class='heading'>
+                    <h1>Our locations</h1>
+                </div>
+                <div id='listings' class='listings'></div>
+            </div>
+
+            <div id='map' class='map pad2'>Map</div>
+        </div>
+
+
+        <div class="matrizWrap hidden" id="contMat">
+            <div class="matrizLeft">
+
+                <table id="matriz" class="matriz">
+                </table>
+            </div>
+
+            <div class="matrizRight">
+                <table id="infoParqueo" class="tablaListar">
+                    <tr>
+                        <th>Nombre</th>
+                        <td id="nombreParqueo"></td>
+                    </tr>
+                    <tr>
+                        <th>Teléfono</th>
+                        <td id="telParqueo"></td>
+                    </tr>
+                    <tr>
+                        <th>Dirección</th>
+                        <td id="dirParqueo"></td>
+                    </tr>
+                </table>
+                <div class="contBoton">
+                    <div class="botonPago">
+                        <button type="button" class="campoBoton" onclick="checkIn()">Check-in</button>
+                    </div>
+                    <div class="botonPago">
+                        <button type="button" class="campoBoton" onclick="reservar()">Reservar</button>
+                    </div>
+                    <div class="botonPago">
+                        <button type="button" class="campoBoton" onclick="cancelar()">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+     <!-- footer fondo -->
+     <footer class="footer">
+        <div class="footer_fondo_forms">
+           <div class="footer_fondo">
+              <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+              <div>
+              </div>
+     </footer>
+     <!-- final footer -->
+    <script src="reservarParqueo.js"></script>
+    <script src="/global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+
+</html>

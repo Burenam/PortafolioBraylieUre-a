@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar/Listar Convenios</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <link rel="stylesheet" type="text/css" href="../../assets/fonts/flaticon.css">
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_cliente.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href="perfil_dueno.html"><img src="../../assets/imgs/login.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- configurarPerfil -->
+      <section class="configurarPerfil">
+            <div class="h2EstiloB">
+                <h2>Configurar <span>cuenta</span></h2>
+            </div>
+            <div class="contenedorConfigurar cross_layout">
+                <div class="rowConfigurar">
+                    <a href="modPerfilEmpresa.html"><i class="flaticon-user"></i></a>
+                    <p>Perfil</p>
+                </div>
+                <div class="rowConfigurar">
+                    <a href="tarjeta/modificar_pago.html"><i class="flaticon-credit-cards"></i></a>
+                    <p>Información de Pago</p>
+                </div>
+                <div class="rowConfigurar">
+                    <a href="modificarContraseña.html"><i class="flaticon-key"></i></a>
+                    <p>Contraseña</p>
+                </div>
+                <div class="rowConfigurar">
+                    <a onclick="borrarCuenta()"><i class="flaticon-delete-user"></i></a>
+                    <p>Eliminar Cuenta</p>
+                </div>
+            </div>      
+      </section>
+      <!-- final configurar -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="eliminarCuenta.js"></script>
+      <script src="../../global.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>    
+   </body>
+</html>

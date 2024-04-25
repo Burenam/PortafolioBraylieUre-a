@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar/Listar Tarifas</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="../perfil_empresa.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href=""><img src="../../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="index.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenido">
+            <div class="capaForm1 bordeTitulo">
+               <div class="h2Estilo">
+                  <h2>Asociar <span>empleados</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form action="perfil.html" id="formConvenios">
+                  <fieldset class="formSet1">
+                     <div class="campo">
+                        <input type="text" name="nombre" placeholder="Cédula de identidad" required="" />
+                     </div>
+                     <div class="campo">
+                        <input type="text" name="empresa" placeholder="Puesto" required="" />
+                     </div>
+                     
+                     
+                     <div class="campo">
+                        <input type="text" name="descuento" placeholder="Fecha de contratación " required="" />
+                     </div>
+                     <div class="">
+                        <button class="campoBoton">Guardar</button>
+                     </div>
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+            <!-- inicio búsqueda -->
+            <div class="capaForm2 bordeTitulo">
+               <div class="h2EstiloB">
+                  <h2>Listar y buscar <span>empleados</span></h2>
+               </div>
+               
+               <div class="contenedorAdministrar">
+                  <form class="busqueda" action="">
+                     <input type="text" placeholder="Escriba la cédula de identidad" name="busquedaConvenio">
+                     <button type="submit"><i class="fa fa-search"></i></button>
+                  </form>
+                  <div class="botonListar"><button class="iconListar" type="submit"><i class="far fa-list-alt"></i></button></div>
+               </div>
+               <!-- inicio tabla -->
+               <br>
+                           
+               <div class="contenedorTabla">
+                  <table id="tabla_usuarios" class="tablaListar">
+                     <thead class="alt_letra">
+                        <tr>
+                           <th id="">Cédula</th>
+                           <th id="">Puesto</th>
+                           <th id="">Fecha de contratación</th>
+                           <th id="">Modificar</th>
+                           <th id="">Eliminar</th>
+                        </tr>
+
+                        
+                    
+                     </thead>
+                     <tbody id="contenido_tabla">
+                        <tr id="">
+                           <td id="">711452369</td>
+                           <td id=""> Gerente Financiero</td>
+                           <td id="">26-12-2015</td>
+                           <td id=""><i onclick="Editar(id)" class="fas fa-edit fa-lg iconosTabla"></i></td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>
+                        <tr>
+                           <td id="">125453698</td>
+                           <td id="">Gerente de Marketing</td>
+                           <td id="">09-07-2016</td>
+                           <td id=""><i onclick="Editar(id)" class="fas fa-edit fa-lg iconosTabla"></i></td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>   
+                        <tr>
+                           <td id="">541237856</td>
+                           <td id="">Gerente de Recursos Humanos</td>
+                           <td id="">28-04-2017</td>
+                           <td id=""><i onclick="Editar(id)" class="fas fa-edit fa-lg iconosTabla"></i></td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>    
+                        <tr>
+                           <td id="">785694123</td>
+                           <td id="">Gerente de TI</td>
+                           <td id="">03-10-2017</td>
+                           <td id=""><i onclick="Editar(id)" class="fas fa-edit fa-lg iconosTabla"></i></td>
+                           <td id=""><i onclick="borrar(id)" class="fas fa-trash-alt fa-lg iconosTabla"></i></td>
+                        </tr>  
+                     </tbody>
+       
+                  </table>
+               </div>
+               
+            </div>   
+            <!-- final búsqueda -->
+            
+      <!-- final servicio -->
+
+      <!-- footer -->
+      <footer class="footer">
+         <div class="contenedorFooter">
+            <div class="footerBAMAS">
+               <div class="full width_9" style="margin-bottom:25px;"> <a href="index.html"><img class="img-responsive" width="250" src="../../imgs/bamas.png" alt="#"></a> </div>
+               <div class="full width_9">
+                  <p><strong>Oficinas Centrales:</strong> La Uruca, 200m este y 125m norte de la entrada principal de Migración</p>
+               </div>
+               <div class="full width_9">
+                  <p><strong>Telefóno/Whatsapp:</strong> <span class="infoTelMail"> +506 2578-9455</span3></p>
+               </div>
+               <div class="full width_9">
+                  <p><strong>Correo electrónico:</strong> <span class="infoTelMail">ticopark@gmail.com</span3></p>
+               </div>
+            </div>
+            <div class="footerTwitter">
+               <div class="full">
+                  <div class="footer_blog_2 width_9">
+                     <h3>Feed Twitter</h3>
+                     <p><i class="fa fa-twitter"></i> Ministerio_de_Salud - 12 mins
+                        Te invitamos a leer las nuevas disposiciones del Ministerio de Salud para parqueos #Ministerio #Salud #Covid-19 #Parqueos #Costarica https://p.jo/EGDFmxGHn
+                     </p>
+                     <p><i class="fa fa-twitter"></i> IFAM - 58 mins
+                        Para consultas de tarifas de parqueo, consulta a servicio al cliente en los teléfonos de nuestra página Web #Tarifas #IFAM #Economía #Municipalidades https://t.co/Y7tZMmxGHn
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="footerSocial">
+               <h3>Social</h3>
+               <div class="full">
+                  <ul class="footer-links">
+                     <li><a href="#"><i class="fa fa-facebook"></i> 415 "Me Gusta"</a></li>
+                     <li><a href="#"><i class="fa fa-instagram"></i> 145 "Me Gusta"</a></li>
+                     <li><a href="#"><i class="fa fa-twitter"></i> 1,142 Seguidores</a></li>                           
+                  </ul>
+               </div>
+            </div>
+            <div class="footerBlog">
+               <h3>Blog</h3>
+               <div class="blog_post_footer">
+                  <div class="blog_post_img"> <img width="80" height="80" src="../../../../imgs/blog1.png" alt="#"> </div>
+                  <div class="blog_post_cont">
+                     <p class="date">Agosto 03, 2020</p>
+                     <p class="post_head">Parqueos mejor calificados en Heredia</p>
+                  </div>
+               </div>
+               <div class="blog_post_footer">
+                  <div class="blog_post_img"> <img width="80" height="80" src="../../imgs/blog2.png" alt="#"> </div>
+                  <div class="blog_post_cont">
+                     <p class="date">Julio 29, 2020</p>
+                     <p class="post_head">Manual para Reservar en TicoPark</p>
+                  </div>
+               </div>
+               <div class="blog_post_footer">
+                  <div class="blog_post_img"> <img width="70" height="70" src="../../imgs/blog3.png" alt="#"> </div>
+                  <div class="blog_post_cont">
+                     <p class="date">Julio 25, 2020</p>
+                     <p class="post_head">Bienvenidos a TicoPark</p>
+                  </div>
+               </div>                    
+            </div>
+         </div>
+         <!-- footer fondo -->
+         <div class="footer_fondo">
+            <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+   
+    <script src="index.js"></script>
+   </body>
+</html>

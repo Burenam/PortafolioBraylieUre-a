@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>TicoPARK - Modificar contraseña</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../../assets/estiloRecuperar.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="recuperar">
+		<div class="contenedorRecuperar">
+			<div class="wrapRecuperar"> 
+				<form class="capaForm">
+					<span class="titulo">
+						Modificar Contraseña
+					</span>
+
+					<div class="capaInput">
+                        <input class="inputForm" type="password" name="passOld" placeholder="Ingrese su contraseña actual" id="passOld" required="">
+                        <span class="focus-inputForm"></span>
+						
+                    </div>
+
+					<div class="capaInput">
+                        <input class="inputForm" type="password" name="password1" placeholder="Ingrese su nueva contraseña" id="passNew1" required="">
+                        <span class="focus-inputForm"></span>
+						
+                    </div>
+                    
+                    <div class="capaInput bordeInput">
+                        <input class="inputForm" type="password" name="password2" placeholder="Ingrese una vez más su nueva contraseña" id="passNew2" required="">
+                        <span class="focus-inputForm"></span>
+						
+					</div>
+
+
+					<div class="contenedorBoton">
+						<button type="button" class="botonForm" onclick="editarPass()">
+							Cambiar contraseña
+						</button>
+					</div>
+
+					
+
+					<div class="capaTexto">
+						<span class="texto1">
+							¿No deseas modificar tu contraseña?
+						</span>
+
+						<a href="configurar_cuenta.html" class="texto2 hov1">
+							Regresa al panel de configuración
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	
+
+<!--===============================================================================================-->
+
+<script src="../../global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+</html>

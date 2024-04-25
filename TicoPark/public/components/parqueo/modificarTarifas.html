@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Modificar Tarifas</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../assets/imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href="configurarCuenta.html"><img src="../../assets/imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <button type="button" class="botonMain" onclick="cerrarSesion()">Cerrar Sesión</button>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd"> <!-- Para cambiar a formato de columna doble" contenedorContenido" de clase -->
+            <div class="capaForm1 bordeTitulo"> 
+               <div class="h2Estilo">
+                  <h2>Modificar <span>tarifa</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <div id="formUsuarios">
+                <fieldset class="formSet1">
+                    <p>Indique el nuevo valor de monto de tarifa:</p>
+                    <div class="campo">
+                        <input type="text" name="monto" placeholder="" id="monto" />
+                    </div>
+                   
+                    <div class="botonDoble1">
+                      <button type="button" onclick="editarTarifas()" class="campoBoton hvr-grow hvr-grow-shadow">Modificar</button>
+                    </div>
+                    <div class="botonDoble2">
+                        <a><button onclick="regresar()" type="button" class="campoBoton hvr-grow hvr-grow-shadow">Regresar</button></a>
+                    </div>
+                </fieldset>
+               </div>
+             <!-- final formulario -->
+               <!-- final formulario -->
+            </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+       <!-- SweetAlert-->
+       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+       <!-- custom js -->
+      <script src="modificarTarifas.js"></script>
+      <script src="../../global.js"></script>
+    
+   </body>
+</html>

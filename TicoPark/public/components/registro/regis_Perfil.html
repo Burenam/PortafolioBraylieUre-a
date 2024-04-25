@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Registrar/perfil</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../../assets/estilo.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_admin.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href="configurar_cuenta.html"><img src="../../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="../../public/landingpage.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd"> <!-- Para cambiar a formato de columna doble" contenedorContenido" de clase -->
+            <div class="capaForm1 bordeTitulo"> 
+               <div class="h2Estilo">
+                  <h2>Registro <span>perfil</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form action="perfil.html" id="formConvenios">
+                  <fieldset class="formSet1">
+                     <div class="campo "> <!-- Si no necesitan agregar Botones al lado del formulario, remover capa floatInputBoton -->
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="comision" placeholder="Nombre" id="comision" required=""/>
+                            </div>
+                            <div class="capaBotonCheck">
+                               <!--<button for="comision" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="direccion" placeholder="Apellidos" id="direccion" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="direccion" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="telefonos" placeholder="Teléfonos" id="telefonos" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="telefonos" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="email" name="emailAdmin" placeholder="Correo electrónico de contacto" id="emailAdmin" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="emailAdmin" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="texto" name="facebook" placeholder="Red social - Facebook" id="facebook" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="facebook" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="texto" name="instagram" placeholder="Red social - Instagram" id="instagram" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="instagram" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="email" name="twitter" placeholder="Red social - Twitter" id="twitter" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <!--<button for="twitter" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>-->
+                            </div>
+                        </div>
+                     </div>   
+                    <!-- <div class="campo">
+                        <div class="contenedorFotos">
+                            <div class="adjuntarFoto">
+                                <div class="capaFotoParametro">
+                                    <p>Logo de la aplicación:</p>
+                                    <img class="fotoParametro" src="../../imgs/logo.png" id="fotoApp">
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-edit"></i></button>
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-trash-alt"></i></button>
+                                </div>
+                            </div>
+                        <div class="contenedorFotos">
+                            <div class="adjuntarFoto">
+                                <div class="capaFotoParametro">
+                                    <p>Logo del admin:</p>
+                                    <img class="fotoParametro" src="../../imgs/bamas.png" id="fotoAdmin">
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-edit"></i></button>
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-trash-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>-->
+                        <div class="campo">
+                            <button class="campoBoton hvr-grow hvr-grow-shadow">Guardar</button>
+                         </div>
+                     </div> 
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="global.js"></script>
+    
+   </body>
+</html>

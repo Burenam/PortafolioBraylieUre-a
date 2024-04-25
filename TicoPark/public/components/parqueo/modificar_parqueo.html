@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- teclado -->
+      <meta charset="utf-8">
+      <!-- sitio -->
+      <title>TicoPARK - Modificar Parqueo</title>
+      <meta name="author" content="BAMAS Software">
+      <!-- css/íconos del sitio -->
+      <link rel="stylesheet" href="../assets/estilo.css" />
+      <script src="https://kit.fontawesome.com/f7460510ef.js" crossorigin="anonymous"></script>
+   </head>
+   <body id="default_theme" class="team">
+      <!-- header -->
+      <header class="header">
+        <div class="contenedor">
+            <div class="header1">
+                <div class="logo"><a href="index.html"><img  src="../imgs/logo.png" alt="TicoPARK" title="Configurar Perfil" /></a></div>
+                <div class="menuPrincipal">  
+                      <ul class="listaMenu">
+                         <li><a href="equipo.html">Equipo</a></li>
+                         <li><a href="vision.html">Visión</a></li>
+                         <li><a href="mision.html">Misión</a></li>
+                         <li><a href="about.html">Sobre Nosotros</a></li>
+                         <li><a href="perfil_dueno.html">Home</a></li>
+                      </ul>  
+                </div>
+            </div>
+            <div class="header2">
+                <div class="contHeader2">
+                    <div><a class="loginIMG" href="configurar_cuenta.html"><img src="../imgs/configuration.png" alt="TicoPARK"/></a></div>
+                    <div class="contBoton"><a class="botonMain" href="../../public/landingpage.html">Cerrar Sesión</a></div>
+                </div>    
+            </div>            
+        </div>
+    </header>
+    
+      <!-- final header -->
+      <!-- servicio -->
+      <section class="contenido">
+         <div class="contenedorContenidoInd"> <!-- Para cambiar a formato de columna doble" contenedorContenido" de clase -->
+            <div class="capaForm1 bordeTitulo"> 
+               <div class="h2Estilo">
+                  <h2>Modificar <span>parqueo</span></h2>
+               </div>
+               <!-- inicio formulario -->
+               <form action="perfil.html" id="formConvenios">
+                  <fieldset class="formSet1">
+                     <div class="campo "> <!-- Si no necesitan agregar Botones al lado del formulario, remover capa floatInputBoton -->
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="nombreParqueo" placeholder="Nombre del parqueo" id="nombreParqueo" required=""/>
+                            </div>
+                            <div class="capaBotonCheck">
+                                <button for="nombreParqueo" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="direccionParqueo" placeholder="Dirección" id="direccionParqueo" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <button for="direccionParqueo" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="text" name="horario" placeholder="Horario de atención" id="horario" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <button for="horario" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>
+                            </div>
+                        </div>
+                        <div class="floatInputBoton">
+                            <div class="capaInputCheck">                        
+                                <input type="number" name="espacios" placeholder="Ingrese la cantidad de espacios" id="espacios" />
+                            </div>
+                            <div class="capaBotonCheck">
+                                <button for="espacios" class="campoBotonCheck hvr-shrink"><i class="fas fa-check fa-m"></i></button>
+                            </div>
+                        </div>
+                        <div class="campo">
+                            <p>Seleccione el tipo de vehículo al cual corresponde la cantidad de espacios:  </p>
+                            <div class="sepRadios">
+                               <div class="radios">
+                                  <input type="radio" id="automovil" name="tipoVehiculo" value="automovil">
+                                  <label for="automovil">Automóvil</label>
+                               </div>
+                               <div class="radios">
+                                  <input type="radio" id="motocicleta" name="tipoVehiculo" value="motocicleta">
+                                  <label for="motocicleta">Motocicleta</label>
+                               </div>
+                               <div class="radios">
+                                  <input type="radio" id="bicicleta" name="tipoVehiculo" value="bicicleta">
+                                  <label for="bicicleta">Bicicleta</label>
+                               </div> 
+                               <div class="radios">
+                                  <input type="radio" id="autobus" name="tipoVehiculo" value="autobus">
+                                  <label for="autobus">Autobús</label>
+                               </div>
+                            </div>
+                            <div class="sepRadios">
+                               <div class="radios">
+                                  <input type="radio" id="camion" name="tipoVehiculo" value="camion">
+                                  <label for="camion">Camión</label>
+                               </div>
+                               <div class="radios">
+                                  <input type="radio" id="cuadraciclo" name="tipoVehiculo" value="cuadraciclo">
+                                  <label for="cuadraciclo">Cuadraciclo</label>
+                               </div>
+                               <div class="radios">
+                                  <input type="radio" id="otros"  name="tipoVehiculo" value="otros">
+                                  <label for="otros">Otros</label>
+                               </div>
+                            </div>
+                         </div>
+                     </div>   
+                     <div class="campo">
+                        <p>Edite o elimine la foto de su parqueo:  </p>
+                        <div class="contenedorFotos">
+                            <div class="adjuntarFoto">
+                                <div class="capaFotoParametro">
+                                    <p><strong>Foto del parqueo #1:</strong></p>
+                                    <img class="fotoParametro" src="../imgs/parqueo1.png" id="fotoApp">
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-edit"></i></button>
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-trash-alt"></i></button>
+                                </div>
+                            </div>
+                        <div class="contenedorFotos">
+                            <div class="adjuntarFoto">
+                                <div class="capaFotoParametro">
+                                    <p><strong>Foto del parqueo #2:</strong></p>
+                                    <img class="fotoParametro" src="../imgs/parqueo2.png" id="fotoAdmin">
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-edit"></i></button>
+                                </div>
+                                <div class="capaBotonCheck2">
+                                    <button class="campoBotonCheck2 hvr-shrink"><i class="far fa-trash-alt"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                     </div> 
+                  </fieldset>
+               </form>
+               <!-- final formulario -->
+            </div>
+      </section>  
+      <!-- final servicio -->
+      <!-- footer fondo -->
+      <footer class="footer">
+         <div class="footer_fondo_forms">      
+            <div class="footer_fondo">
+               <p>© 2020 - Desarrollado por <strong>Grupo BAMAS</strong></p>
+            <div>
+         </div>
+      </footer>
+      <!-- final footer -->
+      <!--=========== Sección de js ===========-->
+      
+      
+      <!-- SweetAlert-->
+    
+      <!-- custom js -->
+      <script src="global.js"></script>
+    
+   </body>
+</html>
