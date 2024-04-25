@@ -1,0 +1,709 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Admin\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Carrito\\Carrito.css",
+      "PackagePath": "staticwebassets\\css\\Carrito\\Carrito.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\ChatBot\\ChatBot.css",
+      "PackagePath": "staticwebassets\\css\\ChatBot\\ChatBot.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Compra\\Details.css",
+      "PackagePath": "staticwebassets\\css\\Compra\\Details.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Equipo\\Equipo.css",
+      "PackagePath": "staticwebassets\\css\\Equipo\\Equipo.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Event\\CreateEvent.css",
+      "PackagePath": "staticwebassets\\css\\Event\\CreateEvent.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Event\\EventList.css",
+      "PackagePath": "staticwebassets\\css\\Event\\EventList.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Event\\Seats.css",
+      "PackagePath": "staticwebassets\\css\\Event\\Seats.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Home\\Home.css",
+      "PackagePath": "staticwebassets\\css\\Home\\Home.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Home\\HomeLoader.css",
+      "PackagePath": "staticwebassets\\css\\Home\\HomeLoader.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Index.css",
+      "PackagePath": "staticwebassets\\css\\Index.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\LandingEquipo.css",
+      "PackagePath": "staticwebassets\\css\\LandingEquipo.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\LandingProducto.css",
+      "PackagePath": "staticwebassets\\css\\LandingProducto.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\Profile\\Profile.css",
+      "PackagePath": "staticwebassets\\css\\Profile\\Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\css\\siteS.css",
+      "PackagePath": "staticwebassets\\css\\siteS.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\Adele.jpg",
+      "PackagePath": "staticwebassets\\img\\Adele.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\Footer.png",
+      "PackagePath": "staticwebassets\\img\\Footer.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\LandingProducto.png",
+      "PackagePath": "staticwebassets\\img\\LandingProducto.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\PayPal-Logo-PNG.png",
+      "PackagePath": "staticwebassets\\img\\PayPal-Logo-PNG.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\acceso.png",
+      "PackagePath": "staticwebassets\\img\\acceso.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\bray.jpeg",
+      "PackagePath": "staticwebassets\\img\\bray.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\com.png",
+      "PackagePath": "staticwebassets\\img\\com.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\coop.png",
+      "PackagePath": "staticwebassets\\img\\coop.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\dina.png",
+      "PackagePath": "staticwebassets\\img\\dina.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\diseno de evento.jpg",
+      "PackagePath": "staticwebassets\\img\\diseno de evento.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\div.png",
+      "PackagePath": "staticwebassets\\img\\div.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\emp.png",
+      "PackagePath": "staticwebassets\\img\\emp.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\00755356-729f-4566-a932-25c7dd47ba20.png",
+      "PackagePath": "staticwebassets\\img\\events\\00755356-729f-4566-a932-25c7dd47ba20.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\139aadb1-71e5-4861-b7d1-9ccb3fb2bf05.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\139aadb1-71e5-4861-b7d1-9ccb3fb2bf05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\1921b843-2756-4e92-b166-263bcd232ffe.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\1921b843-2756-4e92-b166-263bcd232ffe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\1c3a5f84-94ce-4186-bbdb-ccc9f0e120ee.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\1c3a5f84-94ce-4186-bbdb-ccc9f0e120ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\2b59b62a-a947-43ad-84d2-ecc15f3756c8.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\2b59b62a-a947-43ad-84d2-ecc15f3756c8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\3155a6d0-f337-4874-abe9-608bd6676f09.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\3155a6d0-f337-4874-abe9-608bd6676f09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\4b937b3a-9d6e-4a4f-9aa7-1bdca2971828.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\4b937b3a-9d6e-4a4f-9aa7-1bdca2971828.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\56f26fa4-120d-48d5-9f15-0a4117a15ec1.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\56f26fa4-120d-48d5-9f15-0a4117a15ec1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\689e5e2f-8ab0-4344-9c22-920040617503.png",
+      "PackagePath": "staticwebassets\\img\\events\\689e5e2f-8ab0-4344-9c22-920040617503.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\7c3e4387-7447-4e87-ace6-7a5efd004bae.png",
+      "PackagePath": "staticwebassets\\img\\events\\7c3e4387-7447-4e87-ace6-7a5efd004bae.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\7cad1c2f-49b0-483a-aad3-d102d690ea84.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\7cad1c2f-49b0-483a-aad3-d102d690ea84.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\8d4e047b-08e4-4af0-8fd4-7772401d927e.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\8d4e047b-08e4-4af0-8fd4-7772401d927e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\9950ae0f-15da-43ef-98c6-89e0e7a91939.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\9950ae0f-15da-43ef-98c6-89e0e7a91939.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\c38b98ef-a603-4e90-ad17-13461549be06.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\c38b98ef-a603-4e90-ad17-13461549be06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\c86bd776-5540-4e47-83e8-ea1b8d74b159.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\c86bd776-5540-4e47-83e8-ea1b8d74b159.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\cc5da6d9-5b38-4740-aac1-7cb61bd19463.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\cc5da6d9-5b38-4740-aac1-7cb61bd19463.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\d87ec15c-420e-4258-807d-62c9b04cfea6.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\d87ec15c-420e-4258-807d-62c9b04cfea6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\e2c11d20-b0c7-49aa-b67f-6eb231dd0446.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\e2c11d20-b0c7-49aa-b67f-6eb231dd0446.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\e76b545a-e705-4c46-9473-fa4132ab44da.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\e76b545a-e705-4c46-9473-fa4132ab44da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\ed76421b-7d55-4e17-ba7b-3d05ad0267e3.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\ed76421b-7d55-4e17-ba7b-3d05ad0267e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\ef2d0180-e59b-4b8a-9818-246895564fd2.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\ef2d0180-e59b-4b8a-9818-246895564fd2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\events\\imagen1.jpg",
+      "PackagePath": "staticwebassets\\img\\events\\imagen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\facil.png",
+      "PackagePath": "staticwebassets\\img\\facil.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\free.png",
+      "PackagePath": "staticwebassets\\img\\free.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\gab.jpeg",
+      "PackagePath": "staticwebassets\\img\\gab.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\ilimitado.png",
+      "PackagePath": "staticwebassets\\img\\ilimitado.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\imagen1.jpg",
+      "PackagePath": "staticwebassets\\img\\imagen1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\imagen3.jpg",
+      "PackagePath": "staticwebassets\\img\\imagen3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\imagen4.jpg",
+      "PackagePath": "staticwebassets\\img\\imagen4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\impor.png",
+      "PackagePath": "staticwebassets\\img\\impor.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\jai.jpeg",
+      "PackagePath": "staticwebassets\\img\\jai.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\lid.png",
+      "PackagePath": "staticwebassets\\img\\lid.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\img\\logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\img\\logo2.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\img\\logo3.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\logo4.png",
+      "PackagePath": "staticwebassets\\img\\logo4.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\orga.png",
+      "PackagePath": "staticwebassets\\img\\orga.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\pagar.png",
+      "PackagePath": "staticwebassets\\img\\pagar.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\rafa.jpeg",
+      "PackagePath": "staticwebassets\\img\\rafa.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\ret.png",
+      "PackagePath": "staticwebassets\\img\\ret.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\rob.jpeg",
+      "PackagePath": "staticwebassets\\img\\rob.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\seg.png",
+      "PackagePath": "staticwebassets\\img\\seg.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\soporte.png",
+      "PackagePath": "staticwebassets\\img\\soporte.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\ventajas.png",
+      "PackagePath": "staticwebassets\\img\\ventajas.png"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\img\\vic.jpeg",
+      "PackagePath": "staticwebassets\\img\\vic.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Admin\\Finances.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\Finances.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Admin\\LogsAdmin.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\LogsAdmin.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Admin\\SystemLogs.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\SystemLogs.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Admin\\UserList.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\UserList.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\ChatBot\\ChatBot.js",
+      "PackagePath": "staticwebassets\\js\\ChatBot\\ChatBot.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\ControlActions.js",
+      "PackagePath": "staticwebassets\\js\\ControlActions.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Equipo\\Producto.js",
+      "PackagePath": "staticwebassets\\js\\Equipo\\Producto.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Equipo\\ProductoLoader.js",
+      "PackagePath": "staticwebassets\\js\\Equipo\\ProductoLoader.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Index.js",
+      "PackagePath": "staticwebassets\\js\\Index.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Map\\GetLocation.js",
+      "PackagePath": "staticwebassets\\js\\Map\\GetLocation.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Compra\\Carrito.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Compra\\Carrito.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Compra\\Details.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Compra\\Details.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Events\\CreateEvent.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Events\\CreateEvent.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Events\\EventList.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Events\\EventList.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Events\\GridDefinition.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Events\\GridDefinition.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Events\\GridMyEvents.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Events\\GridMyEvents.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Events\\Seats.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Events\\Seats.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Home\\HomePage.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Home\\HomePage.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\Login\\LoginValidation.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\Login\\LoginValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\User\\UpdateUserValidation.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\User\\UpdateUserValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Pages\\User\\UserValidation.js",
+      "PackagePath": "staticwebassets\\js\\Pages\\User\\UserValidation.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Administrador\\LoggedEvents.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Administrador\\LoggedEvents.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Administrador\\ReporteAdministrador.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Administrador\\ReporteAdministrador.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Administrador\\ReporteAuditoria.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Administrador\\ReporteAuditoria.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Comprador\\ReporteBoletos.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Comprador\\ReporteBoletos.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Comprador\\ReporteComprador.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Comprador\\ReporteComprador.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Gestor\\ReporteGanancias.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Gestor\\ReporteGanancias.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Gestor\\ReporteGestor.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Gestor\\ReporteGestor.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Reportes\\Gestor\\ReporteRendimientoPersonal.js",
+      "PackagePath": "staticwebassets\\js\\Reportes\\Gestor\\ReporteRendimientoPersonal.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\ScanReader.js",
+      "PackagePath": "staticwebassets\\js\\ScanReader.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Utilities\\PdfGenerator.js",
+      "PackagePath": "staticwebassets\\js\\Utilities\\PdfGenerator.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Utilities\\pdfmake.js",
+      "PackagePath": "staticwebassets\\js\\Utilities\\pdfmake.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Utilities\\pdfmake.js.map",
+      "PackagePath": "staticwebassets\\js\\Utilities\\pdfmake.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\Utilities\\vfs_fonts.js",
+      "PackagePath": "staticwebassets\\js\\Utilities\\vfs_fonts.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\lib\\bootstrap-icons\\font\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\buren_tun4pw6\\Desktop\\Cenfotec\\Proyecto2\\Visual Repos\\Proyecto SmartBit\\SmartBitEventos\\WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebUI.props",
+      "PackagePath": "build\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebUI.props",
+      "PackagePath": "buildTransitive\\WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

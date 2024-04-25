@@ -1,0 +1,221 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WebUI
+build_property.RootNamespace = WebUI
+build_property.ProjectDir = C:\Users\buren_tun4pw6\Desktop\Cenfotec\Proyecto2\Visual Repos\Proyecto SmartBit\SmartBitEventos\WebUI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\buren_tun4pw6\Desktop\Cenfotec\Proyecto2\Visual Repos\Proyecto SmartBit\SmartBitEventos\WebUI
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Models/Controls/CtrlCardModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXENvbnRyb2xzXEN0cmxDYXJkTW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Models/Controls/CtrlChartModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TW9kZWxzXENvbnRyb2xzXEN0cmxDaGFydE1vZGVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Admin/Finances.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRmluYW5jZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Admin/LogsAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cTG9nc0FkbWluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Admin/SystemLogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU3lzdGVtTG9ncy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Admin/Userlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlcmxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Carrito/Carrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDYXJyaXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Compra/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Dashboard/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Dashboard/CompradorDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXENvbXByYWRvckRhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Dashboard/GestorDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEdlc3RvckRhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Equipo/Equipo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXF1aXBvXEVxdWlwby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/CreateEvent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXENyZWF0ZUV2ZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/EventDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEV2ZW50RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/EventList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXEV2ZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/MyEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXE15RXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/Partials/CompraBoletos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFBhcnRpYWxzXENvbXByYUJvbGV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Events/Partials/GridEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRzXFBhcnRpYWxzXEdyaWRFdmVudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Home/Partials/EventList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQYXJ0aWFsc1xFdmVudExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Login/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRm9yZ290UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Login/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Login/UpdatePasswordSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXBkYXRlUGFzc3dvcmRTdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Producto/Partials/EventList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cUGFydGlhbHNcRXZlbnRMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Producto/Producto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cUHJvZHVjdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/LoggedEvents.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcTG9nZ2VkRXZlbnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteAdministrador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUFkbWluaXN0cmFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteAuditoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUF1ZGl0b3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteBoletos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUJvbGV0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteComprador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUNvbXByYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteGanancias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUdhbmFuY2lhcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteGestor.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZUdlc3Rvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Reportes/ReporteRendimientoPersonal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcUmVwb3J0ZVJlbmRpbWllbnRvUGVyc29uYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Shared/EmailTemplate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVtYWlsVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Suscripcion/Suscripcion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VzY3JpcGNpb25cU3VzY3JpcGNpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/ConfirmAccount.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb25maXJtQWNjb3VudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/ConfirmOTP.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDb25maXJtT1RQLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/ProfileEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxQcm9maWxlRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/ReadQR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWFkUVIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/User/SendCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZW5kQ29kZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mv07mvknwk
+
+[C:/Users/buren_tun4pw6/Desktop/Cenfotec/Proyecto2/Visual Repos/Proyecto SmartBit/SmartBitEventos/WebUI/Views/Shared/_LayoutS.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-0pv44as7ow
