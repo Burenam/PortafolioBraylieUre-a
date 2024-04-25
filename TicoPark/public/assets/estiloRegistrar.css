@@ -1,0 +1,398 @@
+/*------------------------------------------------------------------
+        4. Body
+-------------------------------------------------------------------*/
+.redireccion{
+    color: white;
+}
+.contenido {
+    background-position: right bottom;
+    background-repeat: no-repeat; 
+    margin-top: 20px;
+}
+.contenedorContenido {
+    width: 100%;
+    padding-right: 420px;
+    padding-left: 420px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+}
+.contenedorTipos {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.contenedorTablas{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*----------------------------------------------------
+        4.a. Forms Registrar
+------------------------------------------------------*/
+
+.capaForm1 {
+    float: left;
+    width: 100%;
+    min-height: 725px;
+    padding: 80px 170px;
+    background-size: cover;
+    background-color: #1e72bc;
+    box-shadow: 0 15px 30px -25px #1e72bc; 
+}
+.capaForm1 label {
+    padding: 12px 0 0;
+    color: white;
+}
+.capaForm2 {
+    float: left;
+    width: 70%;
+    min-height: 725px;
+    padding: 80px 70px;
+    background-size: cover;
+    padding-right: 25px;
+}
+
+.h2Estilo h2::after {
+    width: 110px;
+    height: 5px;
+    background: #ddd;
+    content: "";
+    display: block;
+    margin: 15px 0 30px;
+}
+
+/*----------------------------------------------------
+         Contenedor de tipos de Registro
+------------------------------------------------------*/
+
+.contenedor-tipos{
+    width: 100%;
+    margin-top: 60px;
+    border: none;
+    min-height: 45px;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.contenedor-tipo{
+    width: 33.3333%;
+    float: left;
+}
+.botonTipo{
+    line-height: 7px;
+}
+.boton-tipo{
+    color: #fff;
+    font-size: 30px;
+    float: left;
+    text-align: center;
+    height: 365px;
+    width: 365px;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    padding: 110px 35px 0;
+    background: #4A82e2;
+    transition: ease all 0.5s;
+}
+.boton-tipo:hover, .boton-tipo:focus{
+    background: #4bd1dd;
+    color: #fff
+}
+
+/*----------------------------------------------------
+             REGISTRAR USUARIO
+------------------------------------------------------*/
+
+.campo input, select input {
+    width: 500px;
+    margin-top: 10px;
+    border: none;
+    min-height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.campo select{
+    width: 500px;
+    margin-top: 10px;
+    border: none;
+    min-height: 45px;
+    padding: 0 25px;
+    line-height: 45px;
+    font-size: 14px;
+}
+.campo2-campo1 select, .campo2-campo2 select{
+    width: 245px;
+    margin-top: 10px;
+    border: none;
+    padding: 12px 0;
+    line-height: 45px;
+    font-size: 14px;
+}
+.campo6 {
+    width: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+.campo6 select {
+    width: 420.6px;
+    height: 45px;
+    background-color: white;
+    margin: 0 0 0 20px;
+    font-size: 14px;
+}
+.campo2 {
+    width: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.campo7 {
+    width: 500px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+.campo2-campo1 {
+    width: 50%; 
+    float: left;
+    padding-right: 4px;
+    box-sizing: border-box;
+}
+.campo5 {
+    width: 500px;
+    box-sizing: border-box;
+}
+.campo2-campo2{
+    width: 50%; 
+    float: left;
+    padding-left: 4px;
+    box-sizing: border-box;
+}
+.campo2-campo1 input, .campo2-campo2 input{
+    width: 100%;
+    float: left;
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.campo-fecha{
+    width: 500px;
+    box-sizing: border-box;
+}
+.campo-calendario{
+    width: 50%;
+    float: left;
+    padding-right: 3px;
+    padding-top: 20px;
+}
+.campo-calendario1 input{
+    width: 100%;
+    float: left;
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    color: #898989;
+    font-size: 14px;
+}
+.campo-calendario2 button{
+    width: 20%;
+    float: left;
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    color: #898989;
+    background-color: white;
+    padding: 0 3px 0 0;
+    font-size: 14px;
+}
+.campo-calendario3{
+    padding-right: 4px;
+    width: 50%;
+    float: left;
+}
+.campo-calendario4{
+    padding-left: 4px;
+    width: 50%;
+    float: left;
+}
+.campo-calendarios{
+    width: 100%; 
+    float: left;
+    box-sizing: border-box;
+}
+.campo-calendario3 input, .campo-calendario4 input{
+    width: 100%;
+    float: left;
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #898989;
+    background-color: white;
+}
+.campo4-campo1{
+    padding-right: 4px;
+    width: 50%;
+    float: left;
+}
+.campo4-campo2{
+    padding-left: 4px;
+    width: 50%;
+    float: left;
+}
+.campo-radios-listado {
+    width: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.campo4{
+    width: 100%; 
+    float: left;
+    box-sizing: border-box;
+}
+.campo4-campo1 input, .campo4-campo2 input{
+    width: 100%;
+    float: left;
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #898989;
+    background-color: white;
+}
+.campo4-parrafo{
+    width: 100%;
+}
+.campo-cedula{
+    width: 50%; 
+    float: left;
+    padding-left: 4px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.campo-cedula input{
+    padding: 0 25px;
+    border: none;
+    min-height: 45px;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+}
+.campo {
+    clear: both;
+}
+.campo select {
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    margin: 0 0 0 20px;
+    padding: 0 0 0 5px; 
+    font-size: 15px;
+}
+.radios label {
+    float: left;
+    clear: none;
+    padding: 4px 20px 0 10px;
+    font-size: 14px;
+}
+.radios input {
+    width: auto;
+    float: left;
+    margin-top: 7px;
+}
+.sepRadios {
+    clear: both;
+    padding: 5px 0 0;
+}
+.campo-tipo-cedula p{
+    padding: 15px 0 2px;
+    clear: both;
+}
+
+.campo-tipo-cedula select {
+    width: 150px;
+    height: 25px;
+    background-color: white;
+    margin: 0 0 0 20px;
+    padding: 0 0 0 5px; 
+    font-size: 15px;
+    
+}
+
+.campoBotonCheck {
+    background: #4bd1dd;
+    color: #fff;
+    font-size: 14px;
+    width: auto;
+    text-align: center;
+    height: 45px;
+    border-radius: 1px;
+    line-height: 50px;
+    font-weight: 500;
+    border: none;
+    margin-top: 10px;
+    transition: ease all 0.5s;
+    cursor: pointer;
+    min-width: 45px;
+}
+
+.campo-permiso{
+    width: 500px;
+    box-sizing: border-box;
+}
+.detalle{
+    width: 70%;
+    float: left;
+}
+.permiso{
+    width: 30%;
+    float: left;
+}
+.parrafo-detalle{
+    padding: 0;
+}
+.campo-permiso input{
+    width: 100%;
+    padding: 0 10px;
+    border: none;
+    min-height: 40px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.campo-permiso button{
+    border: none;
+    min-height: 60px;
+    box-sizing: border-box;
+    color: white;
+    background: transparent;
+    font-size: 14px;
+}
+input[type="file"] {
+    display: none;
+}
+.cargar-archivo {
+    display: inline-block;
+    cursor: pointer;
+    background-color: transparent;
+}

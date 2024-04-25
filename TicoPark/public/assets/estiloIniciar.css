@@ -1,0 +1,339 @@
+/*------------------------------------------------------------------
+        1. Fuentes
+-------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+
+
+/*------------------------------------------------------------------
+        2. Básico
+-------------------------------------------------------------------*/
+
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+}
+
+body, html {
+	height: 100%;
+	font-family: "Poppins", sans-serif;
+}
+
+a {
+	font-family: "Poppins";
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+	transition: all 0.4s;
+	-webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    text-decoration:none;
+}
+
+
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f15c5c;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0px;
+}
+
+p {
+	font-family: "Poppins";
+	font-size: 14px;
+	line-height: 1.7;
+	color: #666666;
+	margin: 0px;
+}
+
+ul, li {
+	margin: 0px;
+	list-style-type: none;
+}
+
+input {
+	outline: none;
+	border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+
+input::-webkit-input-placeholder { color: #999999;}
+input:-moz-placeholder { color: #999999;}
+input::-moz-placeholder { color: #999999;}
+input:-ms-input-placeholder { color: #999999;}
+
+textarea::-webkit-input-placeholder { color: #999999;}
+textarea:-moz-placeholder { color: #999999;}
+textarea::-moz-placeholder { color: #999999;}
+textarea:-ms-input-placeholder { color: #999999;}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+/*------------------------------------------------------------------
+        3. Login
+-------------------------------------------------------------------*/
+.texto1 {
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 1.4;
+  color: #999999;
+}
+
+.texto2 {
+  font-family: "Poppins";
+  font-size: 15px;
+  line-height: 1.4;
+  color: #1e72bc;
+}
+
+.texto3 {
+  font-family: "Poppins";
+  font-size: 18px;
+  line-height: 1.4;
+  color: #1e72bc;
+  text-transform: uppercase;
+}
+
+
+
+.login {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contenedorLogin {
+    width: 100%;  
+    min-height: 95vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #c9eef5;
+}
+
+.wrapLogin {
+    width: 1180px;
+    min-height: 100vh;
+    background: #fff;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+
+.reset {
+    text-align: center;
+    width: 100%;
+}
+.formatoContrasena {
+    padding-top: 27px;
+    padding-bottom: 239px; 
+}
+
+
+.capaFormulario {
+  width: 50%;
+  float:left;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 303px 65px 40px 65px;
+}
+
+.titulo {
+  font-family: "Poppins";
+  font-size: 22px;
+  color: #1e72bc;
+  line-height: 1.2;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 34px;
+}
+
+
+
+.capaInput {
+  width: 100%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.capaInputA,
+.capaInputB {
+  width: 50%;
+}
+
+.capaInputB {
+  border-left: none;
+}
+
+
+.inputForm {
+  display: block;
+  width: 100%;
+  background: transparent;
+  font-family: "Poppins";
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  padding: 25px 20px 0 25px;
+}
+
+input.inputForm {
+  min-height: 25px;
+}
+
+
+.focus-inputForm {
+  position: absolute;
+  display: block;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
+  top: -1px;
+  left: -1px;
+  pointer-events: none;
+  border: 1px solid #1e72bc;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+
+  -webkit-transform: scaleX(1.1) scaleY(1.3);
+  -moz-transform: scaleX(1.1) scaleY(1.3);
+  -ms-transform: scaleX(1.1) scaleY(1.3);
+  -o-transform: scaleX(1.1) scaleY(1.3);
+  transform: scaleX(1.1) scaleY(1.3);
+}
+
+.inputForm:focus + .focus-inputForm {
+  visibility: visible;
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/*------------------------------------------------------------------
+        4. Imagen
+-------------------------------------------------------------------*/
+.capaImagen {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    background-image: url(imgs/loginbanner.png);
+}
+
+.capaImagen::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*------------------------------------------------------------------
+        5 Botón 
+-------------------------------------------------------------------*/
+
+.contenedorBoton {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.botonSesion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 3px;
+    background: #4bd1dd;
+    font-family: "Poppins";
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+.botonSesion:hover {
+    background: #1e72bc;
+}
+
+.texto3:hover {
+    color: #4bd1dd;
+}
+
+
