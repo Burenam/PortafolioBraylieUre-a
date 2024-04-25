@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="Empleados.css">
+
+  
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Inicio.html">
+            <img src="logo.png" alt="Desarrollos SO1 Logo" width="XX" height="YY">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="Inicio.html">
+                    <img src="Inicio.png" alt="Empleados Icon" width="38" height="32">
+                    <span class="ms-1">Inicio</span>
+                </a>
+                <a class="nav-link active" href="Empleados.html">
+                    <img src="Empleados.png" alt="Empleados Icon" width="35" height="33">
+                    <span class="ms-1">Empleados</span>
+                </a>
+                <a class="nav-link" href="RRHH.html">
+                    <img src="RRHH.png" alt="Empleados Icon" width="38" height="35">
+                    <span class="ms-1">Recursos Humanos</span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <main>
+        <div class="container pt-5">
+
+            <h2>Bienvenidos a la Agenda de Eventos y Capacitaciones de Desarrollos SO1.</h2>
+                <p class="lead pt-3">
+                    En Desarrollos SO1, estamos comprometidos con el desarrollo profesional y personal de nuestros empleados. Por ello, ofrecemos una amplia gama de eventos y capacitaciones diseñados para ayudarlos a adquirir nuevas habilidades, mejorar sus conocimientos y potenciar su talento.
+                    En esta agenda, encontrarán información sobre los próximos eventos y capacitaciones disponibles.
+                </p>
+        
+            
+                <div class="agenda pt-2">
+                    <div class="table-responsive">
+                        <table class="table table-condensed table-bordered">
+                            <thead>
+                                <tr>
+                                    <th class="bg-primary" style="color: #E9F0FA; font-size: 18px">Fecha</th>
+                                    <th class="bg-primary" style="color: #E9F0FA; font-size: 18px">Horario</th>
+                                    <th class="bg-primary" style="color: #E9F0FA; font-size: 18px">Evento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Single event in a single day -->
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="date">28 Abril, 2024</div>
+                                    </td>
+                                    <td class="agenda-time">
+                                        10:00 - 11:30 AM
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i>
+                                            Capacitación: Técnicas de comunicación efectiva
+                                        </div>
+                                    </td>
+                                </tr>
+                                
+                                <!-- Multiple events in a single day (note the rowspan) -->
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="date">15 Abril, 2024</div>
+                                    </td>
+                                    <td class="agenda-time">
+                                        8:00 - 9:00 AM 
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Reunión: Seguimiento de proyectos
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="date">5 Mayo, 2024</div>
+                                    </td>
+                                    <td class="agenda-time">
+                                        8:00 - 9:00 AM 
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Reunión: Planificación de proyectos para el segundo trimestre
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="date">9 Mayo, 2024</div>
+                                    </td>
+                                    <td class="agenda-time">
+                                        10:00 - 11:30 AM 
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Capacitación: Habilidades blandas para el éxito profesional
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="agenda-date" class="active" rowspan="1">
+                                        <div class="date">15 Mayo, 2024</div>
+                                    </td>
+                                    <td class="agenda-time">
+                                        10:00 - 11:30 AM 
+                                    </td>
+                                    <td class="agenda-events">
+                                        <div class="agenda-event">
+                                            Taller: Mindfulness y gestión del tiempo
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="alert alert-primary">
+                    <h4>Consultas</h4>
+                    <p>Para más información sobre cada evento o capacitación, por favor póngase en contacto con el departamento de RRHH.</p>
+                </div>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <a class="btn btn-primary boton-lp" href="RRHH.html">Portal de Recursos Humanos</a>
+                </div>
+            </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+          <p>&copy; 2023 Desarrollos SO1. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </body>
+</html>

@@ -1,0 +1,48 @@
+.navbar-nav {
+    /* Move the navigation links to the right */
+    position: absolute;
+    right: 0; /* Align to the right edge */
+    display: flex; /* Arrange links horizontally */
+    justify-content: flex-end; /* Align links to the right within the container */
+    padding: 0 1rem; /* Add some padding */
+}
+
+.navbar-brand img {
+    width: 195px;
+    height: 45px;
+  }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+th {
+    color: #ddd;
+  }
+
+td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  .footer .container {
+    max-width: 960px;
+  }
